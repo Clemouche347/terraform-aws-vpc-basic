@@ -1,14 +1,14 @@
 output "vpc_id" {
   description = "ID of the VPC"
-  value       = module.vpc.vpc_id
+  value       = aws_vpc.this.id
 }
 
 output "public_subnet_ids" {
   description = "IDs of public subnets"
-  value       = module.vpc.public_subnet_ids
+  value       = aws_subnet.public[*].id
 }
 
 output "vpc_cidr" {
   description = "VPC CIDR block"
-  value       = module.vpc.vpc_cidr
+  value       = var.vpc_cidr
 }
