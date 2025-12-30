@@ -21,6 +21,11 @@ variable "public_subnets_cidr" {
   type        = list(string)
 }
 
+variable "private_subnet_cidr" {
+  description = "private subnet CIDR"
+  type        = string
+}
+
 variable "tags" {
   description = "Common tags for all resources"
   type        = map(string)
