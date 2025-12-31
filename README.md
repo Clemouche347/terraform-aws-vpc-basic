@@ -1,10 +1,11 @@
-# Terraform Variables & Outputs Project
+# Terraform AWS VPC Basic
 
 [![Terraform](https://img.shields.io/badge/Terraform-1.5+-blue?logo=terraform)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)](https://aws.amazon.com/)
 
 ## Overview
-This project demonstrates how to use **Variables**, **Outputs**, and **Modules** in Terraform by provisioning a basic **AWS networking stack**.
+This repository demonstrates a basic AWS VPC deployment using Terraform, focusing on clean variables, outputs and project structure.
+
 
 The infrastructure is intentionally simple and cost-free, focusing on best practices:
 - clear variable definitions
